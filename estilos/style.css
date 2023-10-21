@@ -8,9 +8,9 @@
     box-sizing: border-box;
     
 }
-body, html{
+body{
     height: 100vh;
-    /* background-color: aquamarine; */
+    background-color: rgb(148, 162, 172);
     
 }
 header{
@@ -18,6 +18,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 8px;
+    
 }
 h1{
     margin-left: 10px;
@@ -45,9 +46,12 @@ h1>a{
     display: block;
     position: relative;
     bottom:5px;
+    margin-bottom: 6px;
     border-bottom: 1px solid rgb(208, 204, 204);
 
 }
+
+
 nav{display:none;}
 nav a{
    text-decoration: none;
@@ -63,6 +67,8 @@ nav li{
     
    
 }
+
+
 main{
     display: block;
     max-width: 678px;
@@ -70,13 +76,31 @@ main{
 }
 section{
     display: block;
-    padding: 10px;
+    padding: 0 10px 0 10px;
     margin: auto;
 }
 section img{
     margin: auto;
     width: 100%;
 }
+
+
+/* Perfumes do meio, quatro */
+
+.imgmeio{
+    margin: 05px 0px;
+}
+.imgcitrico{
+    margin: 5px 0px;
+}
+.imgmusc{
+    margin-bottom: 5px;
+}
+
+/* Perfumes do meio, quatro */
+
+
+
 .boximg01{
     position: relative;
     
@@ -110,3 +134,46 @@ h2{
     margin-left: 6px;
 }
 
+/* ultima imagem com texto */
+
+#imagembottom {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#textimgbottom {
+    position: absolute;
+    color: #ffffff;
+    padding-bottom: 40px;
+    padding-left: 25px;
+    bottom: 0;
+}
+
+#textimgbottom p {
+    margin-bottom: 8px;
+}
+
+#textimgbottom h3 {
+    margin: 0;
+}
+
+#imagembottom img {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 15px;
+    padding-bottom: 100px;
+}
+
+/* ultima imagem com texto */
+
+
+#lastbox{
+    background-color: #ffffff;
+    margin-top: 5px;
+    width: 90%;
+    height: 500px;
+   
+}
