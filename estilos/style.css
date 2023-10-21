@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* geral - tela menor */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body, html{
+    height: 100vh;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   
+}
+#linha{
+    display: block;
+    position: relative;
+    bottom:5px;
+    border-bottom: 1px solid rgb(208, 204, 204);
+
+}
+nav{
+    display: none;
+}
