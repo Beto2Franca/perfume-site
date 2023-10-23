@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: rgb(0 100 0 / 0.1); */
+    background-color: rgb(0 100 0 / 0.1);
     
 }
 
@@ -49,7 +49,7 @@ h1 >a{
 }
 
 
-nav{
+nav#menu{
     display:none;
 
 
@@ -68,26 +68,21 @@ nav li{
     
    
 }
-
-
-main{
-    display: block;
-    max-width: 678px;
-   
+#menuflex{
+    display: none;
 }
-section{
+
+img{
+   
+    width: 100%;
+}
+
+.imgnenor{
     display: block;
     padding: 0 10px 0 10px;
     margin: auto;
 }
-section img{
-    margin: auto;
-    width: 100%;
-}
 
-.imgmaior{
-    display: none ;
-}
 
 /* Perfumes do meio, quatro */
 
@@ -101,6 +96,14 @@ section img{
     margin-bottom: 5px;
 }
 
+.flexcitrico{
+    padding: 0 10px 0 10px;
+    margin: auto;
+}
+.flexmusc{
+    padding: 0 10px 0 10px;
+    margin: auto;
+}
 /* Perfumes do meio, quatro */
 
 
@@ -112,6 +115,7 @@ section img{
 #textoimg01{
     position: absolute;
     padding: 10px;
+    margin-left: 10px;
     background-color: rgba(52, 106, 105, 0.549);
     color: #ffffff;
     height: 80px;
@@ -162,7 +166,7 @@ h2{
     margin: 0;
 }
 
-#imagembottom img {
+.frascosp {
     display: block;
     width: 100%;
     height: auto;
