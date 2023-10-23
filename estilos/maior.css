@@ -9,12 +9,16 @@ nav#menu{
 }
 #menuflex{
     display: block;
-  
-    
 }
 .ico05{
     display: none;
 }
+.iconesflex{
+    display: flex;
+}
+.ico02{display: block;}
+.ico03{display: block;}
+
 nav li{
     display: inline-block;
    
