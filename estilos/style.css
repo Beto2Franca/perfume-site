@@ -6,11 +6,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: rgb(0 100 0 / 0.1); */
+    background-color: rgb(0 100 0 / 0.1);
     
 }
 body{
-    height: 100vh;
     background-color: rgb(148, 162, 172);
     
 }
@@ -173,6 +172,9 @@ h2{
 
 /* Footer */
 
+footer{
+    max-width: 678px;
+}
 .text{
     
     background-color: #ffffff;
