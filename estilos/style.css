@@ -10,6 +10,9 @@
     
 }
 
+body{
+    background-color: rgb(121, 118, 113);
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -89,6 +92,32 @@ img{
 .imgmeio{
     margin: 05px 0px;
 }
+
+
+/* TEXTO PERFUMES MEIO  */
+
+.flexcitrico{
+    position: relative;
+}
+#citrus01{
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+
+}
+#citrus01 a{
+    text-decoration: none;
+    color: black;
+}
+.linec01{
+    border-bottom: 1px solid black;
+    width: 70px;
+    margin: auto;
+    padding: 3px;
+}
+
+/* TEXTO PERFUMES MEIO  */
+
 .imgcitrico{
     margin: 5px 0px;
 }
