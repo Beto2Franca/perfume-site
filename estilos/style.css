@@ -11,7 +11,7 @@
 }
 
 body{
-    background-color: rgb(121, 118, 113);
+    /* background-color: rgb(121, 118, 113); */
 }
 header{
     display: flex;
@@ -209,29 +209,29 @@ h2{
 
 /* Footer */
 
-footer{
-    max-width: 678px;
-}
 .text{
     
     background-color: #ffffff;
     margin-top: 5px;
     padding: 20px 10px 10px 25px;
     height: 240px;
-    max-width: 658px;
     
 }
 .text p{
     margin-bottom: 15px;
+     max-width: 658px;
 }
 div.email >.enviar{
     display: inline-block;
     margin-left: 45%;
+    
 
 }
 .email{
     display: flex;
     align-items: center;
+    max-width: 790px;
+    
 }
 #iemail{
     border: 0px;
