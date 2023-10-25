@@ -76,15 +76,10 @@ nav li{
 }
 
 img{
-   
     width: 100%;
 }
 
-.imgnenor{
-    display: block;
-    padding: 0 10px 0 10px;
-    margin: auto;
-}
+
 
 /* .imgmaior{
     display: block;
@@ -119,6 +114,15 @@ img{
     padding: 3px;
 }
 
+
+.imgnenor{
+    display: block;
+    padding: 0 10px 0 10px;
+    margin: auto;
+}
+.imgmaior{
+    display: none;
+}
 /* TEXTO PERFUMES MEIO FIM */
 
 .imgcitrico{

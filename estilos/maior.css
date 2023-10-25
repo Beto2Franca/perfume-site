@@ -29,7 +29,11 @@ nav li{
   
    
 }
-
+.imgnenor{
+    display: none;
+    padding: 0 10px 0 10px;
+    margin: auto;
+}
 .imgmaior{
     display: block;
     padding: 0 10px 0 10px;
@@ -64,11 +68,8 @@ nav li{
 }
 
 #textimgbottom {
-    position: absolute;
     color: #ffffff;
     padding-bottom: 40px;
-   
-   
     
 }
 .frascosp{
