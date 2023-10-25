@@ -29,9 +29,7 @@ nav li{
   
    
 }
-.imgmenor{
-    display: none;
-}
+
 .imgmaior{
     display: block;
     padding: 0 10px 0 10px;
@@ -40,32 +38,41 @@ nav li{
 
 .flexcitrico{
     display: flex;
-    padding: 0px 10px 10px 10px;
+    padding: 0px 10px 5px 10px;
    margin: auto;
    gap: 8px;
 
 }
+.imgcitrico{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.imgmusc{
+    margin-bottom: 1px;
+}
 .flexmusc{
     display: flex;
-    padding: 0px 10px 10px 10px;
+    padding: 0px 10px 5px 10px;
     margin: auto;
     gap: 8px;
 }
 
-#imagembottom {
+
+
+#imagembottom{
     position: relative;
-    width: 100%;
-    height: auto;
 }
 
-#imagembottom img {
-    display: block;
-    width: 100%;
-    height: auto;
-    background-color: rgb(0, 0, 0);
-    padding: 10px;
-    padding-bottom: 100px;
+#textimgbottom {
+    position: absolute;
+    color: #ffffff;
+    padding-bottom: 40px;
+   
+   
+    
 }
 .frascosp{
-    display: none;
+   width: 700px;
+   margin: auto;
+
 }
