@@ -10,9 +10,9 @@
     
 }
 
-body{
+/* body{
     background-color: rgb(121, 118, 113);
-}
+} */
 header{
     display: flex;
     justify-content: space-between;
