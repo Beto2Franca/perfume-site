@@ -4,11 +4,12 @@
 
 nav#menu{
     display:none;
-
+   
 
 }
 #menuflex{
     display: block;
+   
 }
 .ico05{
     display: none;
@@ -21,13 +22,11 @@ nav#menu{
 
 nav li{
     display: inline-block;
-   
     list-style-type: none;
     padding: 5px;
     padding-left: 19px;
     border: none;
-  
-   
+     
 }
 .imgnenor{
     display: none;
@@ -38,6 +37,8 @@ nav li{
     display: block;
     padding: 0 10px 0 10px;
     margin: auto;
+
+    transition: all ease-in-out .5s;
 }
 
 .flexcitrico{
@@ -73,7 +74,11 @@ nav li{
     
 }
 .frascosp{
-   width: 700px;
+   
+   width: 600px;
    margin: auto;
-
+   transition: all ease-in-out .5s;
 }
+
+/* PESQUISE ICONE */
+
