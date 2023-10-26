@@ -12,3 +12,11 @@ function MudouT(){
         menu.style.display = 'none'
     }
 }
+
+function carrinho(){
+    if(carvazio.style.display == 'block'){
+        carvazio.style.display = 'none'
+    }else{
+        carvazio.style.display = 'block'
+    }
+}
