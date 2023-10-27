@@ -20,3 +20,24 @@ function carrinho(){
         carvazio.style.display = 'block'
     }
 }
+
+// function entrar(){
+
+//     if(iboxmodel.style.display == 'block'){
+//         iboxmodel.style.display = 'none'
+//     } else{
+//         iboxmodel.style.display = 'block'
+//     }
+// }
+
+function entrar() {
+    var iboxmodel = document.getElementById('iboxmodel');
+
+    if (iboxmodel.style.display == 'block') {
+        iboxmodel.style.display = 'none';
+        iboxmodel.style.zIndex = '-1'; // Define um z-index negativo para esconder o modal
+    } else {
+        iboxmodel.style.display = 'block';
+        iboxmodel.style.zIndex = '888'; // Define o z-index desejado para exibir o modal sobre a página
+    }
+}

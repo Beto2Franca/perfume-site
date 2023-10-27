@@ -14,7 +14,7 @@
 
 <body onresize="MudouT()">
 
-    
+
     <header>
         <h1><a href="#">Parfum</a></h1>
 
@@ -26,6 +26,7 @@
                 <li><a href="#">PRESENTES</a></li>
                 <li><a href="#">SOBRE</a></li>
             </ul>
+
         </nav>
 
 
@@ -33,9 +34,8 @@
             <span class="material-symbols-rounded ico01">
                 <a href="pesquisa.html">search</a>
             </span>
-            <span class="material-symbols-rounded ico02">
-                <a href="#">person</a>
-            </span>
+            <span class="material-symbols-rounded ico02" id="person" onclick="entrar()">person</span>
+
             <span class="material-symbols-rounded ico03">
                 <a href="#">favorite</a>
             </span>
@@ -47,10 +47,12 @@
                 <a href="#" onclick="ClickMenu()">menu</a>
             </span>
         </div>
-        
+
     </header>
-   
+
     <div id="linha"></div>
+
+  
 
     <nav id="menu">
         <ul>
@@ -59,7 +61,10 @@
             <li><a href="#">BOLSAS</a></li>
             <li><a href="#">PRESENTES</a></li>
             <li><a href="#">SOBRE</a></li>
+
+            
         </ul>
+        <span class="material-symbols-rounded icoper2" id="person" onclick="entrar()"> person</span>
     </nav>
 
 
@@ -168,6 +173,42 @@
 
     </footer>
 
+
+
+       <!-- JANELA MODAL -->
+
+       <div class="boxmodel" id="iboxmodel">
+
+        <div class="model">
+            <h3>Entrar</h3>
+            <form action="" method="get">
+                <div>
+                    <label class="lfrom" for="imal">E-mail*</label>
+                    <input type="email" name="email" id="imal" placeholder="example@email.com">
+                </div>
+
+                <div>
+                    <label class="lfrom" for="isenha">Senha*</label>
+                    <input type="password" name="senha" id="isenha" placeholder="Insira sua senha">
+                </div>
+            </form>
+            <p><a href="#">Esqueceu a senha</a></p>
+
+            <div class="lembrar">
+                <input type="checkbox" name="ckbox" id="ckbox">
+                <label for="ckbox">Lembre-me</label>
+            </div>
+
+            <div>
+
+                <input type="submit" value="ENTRAR" id="btentrar" onclick="entrarCadastro()">
+            </div>
+
+        </div>
+
+    </div>
+
+   
     <script src="script.js"></script>
 </body>
 
