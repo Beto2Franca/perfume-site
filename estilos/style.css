@@ -288,7 +288,7 @@ div.email >.enviar{
 .model{
     min-width: 300px;
     min-height: 300px;
-    background-color: rgba(250, 250, 253, 0.381);
+    background-color: rgba(157, 157, 160, 0.729);
     box-shadow: 2px 2px 5px rgba(105, 104, 104, 0.214);
     backdrop-filter: blur(10px);
     border-radius: 20px;
