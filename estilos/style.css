@@ -198,21 +198,16 @@ h2{
 }
 
 #textimgbottom {
-    position: absolute;
+    position:absolute;
     color: #ffffff;
-    padding-bottom: 40px;
-    padding-left: 25px;
+    top: 82%;
     bottom: 0;
+
 }
 
 #textimgbottom p {
-    margin-bottom: 8px;
+   margin-left: 10px;
 }
-
-#textimgbottom h3 {
-    margin: 0;
-}
-
 .frascosp{
     display: block;
     margin: auto;
@@ -236,7 +231,7 @@ h2{
     
 }
 .text p{
-    margin-bottom: 15px;
+     margin-bottom: 15px;
      max-width: 658px;
 }
 div.email >.enviar{
