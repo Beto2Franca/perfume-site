@@ -52,7 +52,7 @@
 
     <div id="linha"></div>
 
-  
+
 
     <nav id="menu">
         <ul>
@@ -62,7 +62,7 @@
             <li><a href="#">PRESENTES</a></li>
             <li><a href="#">SOBRE</a></li>
 
-            
+
         </ul>
         <span class="material-symbols-rounded icoper2" id="person" onclick="entrar()"> person</span>
     </nav>
@@ -175,40 +175,40 @@
 
 
 
-       <!-- JANELA MODAL -->
+    <!-- JANELA MODAL -->
 
-       <div class="boxmodel" id="iboxmodel">
+    <div class="boxmodel" id="iboxmodel">
 
         <div class="model">
             <h3>Entrar</h3>
             <form action="" method="get">
                 <div>
                     <label class="lfrom" for="imal">E-mail*</label>
-                    <input type="email" name="email" id="imal" placeholder="example@email.com">
+                    <input type="email" name="email" id="imal" placeholder="example@email.com" required>
                 </div>
 
                 <div>
                     <label class="lfrom" for="isenha">Senha*</label>
-                    <input type="password" name="senha" id="isenha" placeholder="Insira sua senha">
+                    <input type="password" name="senha" id="isenha" placeholder="Insira sua senha" required
+                        minlength="6" maxlength="15" autocomplete="current-password">
                 </div>
-            </form>
-            <p><a href="#">Esqueceu a senha</a></p>
 
-            <div class="lembrar">
-                <input type="checkbox" name="ckbox" id="ckbox">
-                <label for="ckbox">Lembre-me</label>
-            </div>
+                <p><a href="#">Esqueceu a senha</a></p>
 
-            <div>
+                <div class="lembrar">
+                    <input type="checkbox" name="ckbox" id="ckbox">  
+                    <label for="ckbox">Lembre-me</label> 
+                </div>
 
                 <input type="submit" value="ENTRAR" id="btentrar" onclick="entrarCadastro()">
-            </div>
+
+            </form>
 
         </div>
 
     </div>
 
-   
+
     <script src="script.js"></script>
 </body>
 

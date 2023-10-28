@@ -312,6 +312,7 @@ form div{
    
 }
 .lembrar{
+    display: inline-block;
     margin-top: 5px;
     margin-bottom: 20px;
     padding: 10px;
